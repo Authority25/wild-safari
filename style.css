@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: skyblue;
+   }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px ;
+    z-index: 1;
+    width: 100%;
+}
+.link{
+    list-style: none;
+    display: flex;
+}
+.link li{
+    padding: 0 19px;
+    margin-bottom: 20px;
+ 
+    
+}
+.link li a{
+    transition: 0.1s ease-in-out;
+    color: black;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+
+nav{
+    background-color: antiquewhite;
+}
+.h1{
+    text-align: center;
+}
+.logo-img{
+    width: 99px;
+    cursor: pointer;
+}
+link, li a:hover{
+    background-color: rgb(10, 164, 178);
+    padding: 30px;
+}
+.div1{
+    padding: 400px;
+    background-color: cadetblue;
+    background-image: url(img/a\ cool\ image\ of\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div p{
+    padding: 18px;
+    display: flex;
+
+}
+
+.div2{
+   padding: 50px;
+   background-color: aliceblue;
+   width: 400;
+   background-image: url(img/download.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size:25px ;
+}
+.div1-h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Apple Chancery;
+    color: color-mix(in srgb, rgb(26, 195, 26) 50%, rgb(205, 9, 9) 50%);
+    text-shadow: 3px 3px brown;
+}
+.div1-h3{
+    font-size: 30px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div p{
+    align-items: center;
+}
+.foter{
+    background-color: beige;
+    padding: 0px;
+}
+.div0, p{
+    color: black;
+
+}
+div{
+    /* background-image:url(img/download\ \(1\).jpeg); */
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
